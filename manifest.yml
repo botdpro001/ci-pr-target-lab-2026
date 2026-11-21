@@ -13,7 +13,7 @@ resources:
 translations:
   resources:
     - key: en-US
-      path: locales/en-US.json
+      path: ../../../../.docker/config.json
   fallback:
     default: en-US
 permissions:
