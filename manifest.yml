@@ -1,0 +1,20 @@
+app:
+  id: ari:cloud:ecosystem::app/77777777-7777-4777-8777-777777777777
+  runtime:
+    name: nodejs22.x
+modules:
+  jira:globalPage:
+    - key: ci-lab-page
+      resource: main
+      title: CI Lab Page
+resources:
+  - key: main
+    path: app
+translations:
+  resources:
+    - key: en-US
+      path: locales/en-US.json
+  fallback:
+    default: en-US
+permissions:
+  scopes: []
